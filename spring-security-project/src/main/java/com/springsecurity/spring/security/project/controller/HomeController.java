@@ -8,26 +8,21 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "home";  // Directs to home.html
-    }
-
-    @GetMapping("/home")
-    public String homePage() {
-        return "home";  // Directs to home.html after successful login
+        return "home";
     }
 
     @GetMapping("/user")
     public String user() {
-        return "user";  // Directs to user.html
+        return "user";
     }
 
     @GetMapping("/admin")
     public String admin() {
-        return "admin";  // Directs to admin.html
+        return "admin";
     }
 
     @GetMapping("/login")
     public String login() {
-        return "login";  // Directs to login.html
+        return "login";
     }
 }
